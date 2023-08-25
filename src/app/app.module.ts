@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http'
 
 import { AppComponent } from './app.component';
@@ -14,12 +13,10 @@ import { DrinksComponent } from './components/body-home/drinks/drinks.component'
 import { CardDrinkComponent } from './components/body-home/drinks/card-drink/card-drink.component';
 import { IngredientsComponent } from './components/body-home/ingredients/ingredients.component';
 import { CardIngredientsComponent } from './components/body-home/ingredients/card-ingredients/card-ingredients.component';
+import { BodyDetailsComponent } from './components/body-details/body-details.component';
+import { AppRoutingModule } from './app-routing.module';
 
-const routes: Routes = [
-  { path: 'menu', component: AppComponent },
-  { path: 'rewards', component: AppComponent },
-  { path: 'blog', component: AppComponent }
-]
+
 
 @NgModule({
   declarations: [
@@ -33,12 +30,13 @@ const routes: Routes = [
     DrinksComponent,
     CardDrinkComponent,
     IngredientsComponent,
-    CardIngredientsComponent
+    CardIngredientsComponent,
+    BodyDetailsComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
