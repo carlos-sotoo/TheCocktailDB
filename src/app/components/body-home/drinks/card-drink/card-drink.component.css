@@ -1,0 +1,25 @@
+.card-drink {
+  text-align: center;
+  flex-basis: 30%;
+}
+.card-drink img {
+  border: 5px solid #080808;
+  border-radius: 100%;
+  width: 150px;
+}
+.card-drink h4,
+.card-drink a {
+  color: white;
+}
+
+.card-drink:nth-child(3n) img {
+  border: 5px solid var(--brown-color);
+}
+
+.card-drink:nth-child(3n - 1) img {
+  border: 5px solid var(--green-color);
+}
+
+.card-drink:nth-child(3n - 2) img {
+  border: 5px solid var(--pink-color);
+}

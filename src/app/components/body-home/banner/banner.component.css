@@ -1,0 +1,102 @@
+.container-banner {
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+}
+
+.container-left {
+  margin-right: -100px;
+}
+
+.container-left h2 {
+  color: var(--primary-color);
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 700;
+}
+.container-left p {
+  color: var(--primary-color);
+  font-size: 14px;
+  line-height: 14px;
+  width: 75%;
+  margin: 20px 0;
+}
+
+.container-left h3 {
+  color: var(--primary-color);
+  font-size: 35px;
+}
+.container-left button {
+  border: none;
+  width: 140px;
+  height: 46px;
+  border-radius: 23px;
+  box-shadow: 0 2px 2px #62a6ab;
+  background-color: var(--secondary-color);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px 0 20px;
+  margin: 25px 0;
+}
+
+.container-left button img {
+  background-color: #62a6ab;
+  padding: 8px 10px;
+  border-radius: 100%;
+}
+
+.container-background {
+  position: relative;
+  margin: 0 -80px 0 -100px;
+}
+
+.container-background .circle-background {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 160px;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.container-background .circle-background .img-fruta {
+  position: absolute;
+  width: 80px;
+  left: 6px;
+  bottom: 15px;
+}
+
+.container-background .circle-background .img-cafe {
+  position: absolute;
+  width: 120px;
+  right: 5px;
+  bottom: 0px;
+}
+
+.container-background .img-gin-bottle {
+  position: absolute;
+  width: 130px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 100;
+}
+
+.container-background .img-background {
+  height: 300px;
+}
+
+.container-right {
+  display: flex;
+  flex-flow: column nowrap;
+  z-index: 110;
+}

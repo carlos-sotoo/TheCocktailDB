@@ -1,0 +1,27 @@
+.main-menu {
+  width: fit-content;
+  margin-left: 40px;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu li {
+  margin: 0 25px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.main-menu a:hover {
+  color: #ff6600;
+}

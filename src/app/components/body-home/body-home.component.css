@@ -1,0 +1,6 @@
+main {
+  padding: 0 135px;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 100px;
+}

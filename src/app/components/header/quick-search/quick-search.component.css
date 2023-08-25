@@ -1,0 +1,27 @@
+.input-content {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  top: 7px;
+  left: 6px;
+}
+.search-btn img {
+  width: 12px;
+}
+.search-input {
+  height: 27px;
+  outline: none;
+  border-radius: 14px;
+  border: none;
+  width: 130px;
+  padding-left: 30px;
+  font-weight: lighter;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0 2px 2px #00000055;
+}

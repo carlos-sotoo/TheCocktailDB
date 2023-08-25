@@ -1,0 +1,11 @@
+<div class="card-right" *ngFor="let card of cards">
+  <div class="icon-card">
+    <img [src]="card.icon" [alt]="card.title" />
+  </div>
+  <div>
+    <h4>{{ card.title }}</h4>
+    <p>
+      {{ card.description }}
+    </p>
+  </div>
+</div>

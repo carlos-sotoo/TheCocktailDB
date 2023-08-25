@@ -1,0 +1,25 @@
+.header {
+  height: 160px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 50px;
+  padding: 0 135px;
+}
+
+.logo-header {
+  height: 65px;
+}
+
+.nav-bar {
+  flex-grow: 1;
+}
+.bookmark-header {
+  height: 20px;
+}
+.content-search {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 20px;
+}
