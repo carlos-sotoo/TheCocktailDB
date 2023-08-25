@@ -1,0 +1,31 @@
+main {
+  padding: 0 135px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.instructions-details {
+  width: 40%;
+  background-color: var(--dark-green-color);
+  padding: 40px;
+  border-radius: 50px;
+}
+.instructions-details h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.image-details h2 {
+  font-size: 30px;
+  color: var(--dark-brown-color);
+}
+
+.image-details img {
+  width: 300px;
+  border-radius: 100%;
+  border: 6px solid var(--dark-green-color);
+}

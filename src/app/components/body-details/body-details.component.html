@@ -1,1 +1,15 @@
-<p>body-details works!</p>
+<main>
+  <div *ngIf="drinkDetails" class="container">
+    <div class="image-details">
+      <h2>{{ drinkDetails.strDrink }}</h2>
+      <img [src]="drinkDetails.strDrinkThumb" />
+    </div>
+    <div class="instructions-details">
+      <h3>Instructions</h3>
+      <p>
+        {{ drinkDetails.strInstructions }}
+      </p>
+    </div>
+    <app-ingredients-details [recipe]="drinkDetails"></app-ingredients-details>
+  </div>
+</main>

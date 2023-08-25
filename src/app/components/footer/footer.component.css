@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--drink-color);
+  height: 60px;
+}
+
+hr {
+  margin-top: 60px;
+  border: 2px solid var(--drink-color);
+}
+h3 {
+  text-align: center;
+}
+.links-footer {
+  text-align: center;
+}

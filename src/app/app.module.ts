@@ -15,6 +15,9 @@ import { IngredientsComponent } from './components/body-home/ingredients/ingredi
 import { CardIngredientsComponent } from './components/body-home/ingredients/card-ingredients/card-ingredients.component';
 import { BodyDetailsComponent } from './components/body-details/body-details.component';
 import { AppRoutingModule } from './app-routing.module';
+import { IngredientsDetailsComponent } from './components/body-details/ingredients-details/ingredients-details.component';
+import { BodyIngredientsComponent } from './components/body-ingredients/body-ingredients.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -31,7 +34,10 @@ import { AppRoutingModule } from './app-routing.module';
     CardDrinkComponent,
     IngredientsComponent,
     CardIngredientsComponent,
-    BodyDetailsComponent
+    BodyDetailsComponent,
+    IngredientsDetailsComponent,
+    BodyIngredientsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
